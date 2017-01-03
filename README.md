@@ -14,14 +14,14 @@ Let's think of an example on a slightly larger scale. Let's say we are writing a
 
 As we begin to write more and more advanced programs, you'll see that to really accurately model a domain, we'll need to build a program that contains more than one class. For now, however, we'll keep it simple.
 
-In this assignment you'll be writing a simple domain model that represents a school. 
+In this lab you'll be writing a simple domain model that represents a school. 
 ## Instructions
 
 This lab is primarily test-driven. Use the test output, along with the guidelines below. 
 
 ### Part 1. 
 
-Create a class, School, in the `lib` directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context. 
+Create a class, `School`, in the `lib` directory that can be initialized with a name. The School class would be referred to as a "model" in the domain model context. 
 ```ruby
 school = School.new("Bayside High School")
 ```
@@ -100,10 +100,3 @@ school.sort
 ```
 
 Note that since hashes are unordered by nature, the order of the keys does not matter here, just the order of the student's names within each array.
-
-## Resources
-* [StackOverflow](http://stackoverflow.com/) - [What does ||= (or equals) mean in Ruby?](http://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/school-domain' title='Domain Model for a School'>Domain Model for a School</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/school-domain'>OO School Domain</a> on Learn.co and start learning to code for free.</p>
