@@ -1,5 +1,4 @@
 class School
-    attr_accessor :school_name
     attr_accessor :roster
     
     def initialize(school_name)
