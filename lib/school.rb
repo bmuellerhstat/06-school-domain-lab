@@ -22,7 +22,7 @@ class School
     end
     
     def sort
-        roster.each do |grade, student_name|
+        roster.each do |grade, student_name| # QUESTION: does this automatically mean that the grade level and student name is in the roster and it is being iterated?
             roster[grade] = student_name.sort
         end
     end
