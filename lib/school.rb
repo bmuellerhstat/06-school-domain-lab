@@ -16,4 +16,12 @@ class School
         #shovel in the student's name into the grade
         @roster[grade] << student_name
     end
+    
+    def grade(num)
+        @grade[num]
+    end
+    
+    def sort
+        
+    end
 end
