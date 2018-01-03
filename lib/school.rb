@@ -6,7 +6,7 @@ class School
         @roster = {}
     end 
     def add_student(name,grade)
-       unless @roster[grade] != nil
+       unless @roster[grade] != nil #if it is non-exsitant we have to point it to the empty array (unless it is not nil(!nil)
        @roster[grade] = []
     end
     @roster[grade] << name 
