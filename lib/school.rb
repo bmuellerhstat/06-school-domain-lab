@@ -12,11 +12,11 @@ class School
         if !@roster.keys.include? age
         @roster[age] = []
         end
-        for i in 0..@roster.length
-            if age == @roster.keys[i]
+        # for i in 0..@roster.length
+        #     if age == @roster.keys[i]
                 @roster[age] << name
-            end
-        end
+            # end
+        # end
     end
     def grade(grade)
          @roster.values_at(grade).flatten
