@@ -17,7 +17,7 @@ class School
     end 
     
     #student_arr is empty unless roster contains grade already
-    #the new student is shovelled into the student_arr instance method
+    #the new student is shovelled into the student_arr instance variable
     #students are added to different / their specific grade
     def add_student(student,grade)
         @student_arr = [] unless @roster.key?(grade)
