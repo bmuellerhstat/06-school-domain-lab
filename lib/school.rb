@@ -4,7 +4,7 @@ class School
     
     def initialize(school_name)
         @roster = {}
-        @school = school_name
+        @school = school_name # forgot t add Part 1
     end
     
     def roster
